@@ -294,8 +294,7 @@ footer{ margin-top: 2em;
 
   .nav-list { display:none;
               flex-direction: column;
-              width:40%;
-              margin-left: 3em;}
+              width:90%;}
 
   .nav-list{ margin-bottom:2rem; }
 
