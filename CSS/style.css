@@ -1,0 +1,143 @@
+html { font-size: 100%;}
+
+
+.websiteBody{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    
+  }
+
+.Page{
+    display:block;
+    margin:auto;
+    width:100%;
+    height:auto;
+  }
+
+.Page img { width:100%;
+            height:225px;}
+
+.nav { position: absolute;
+      display:flex;
+      right: 1%;
+      top: 6px;}
+
+.nav a {font-family: Poppins;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 1.2rem;
+      line-height: 42px;
+      color: #FFFFFF;
+      padding-inline: 22px;
+      text-decoration: none;
+      z-index: 2;
+    }
+
+.title {position: absolute;
+    width: 325px;
+    height: 131px;
+    left: 40%;
+    top: 3%;
+    font-family: Parisienne;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 131px;
+    color: #FFFFFF;}
+
+.welcome {position: absolute;
+    width: 400px;
+    height: 60px;
+    left: 3%;
+    top: 250px;
+    padding: 25px;
+    background: rgba(251, 149, 135, 0.65);
+    box-shadow: 10px 6px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;}
+
+.welcome-text {font-family: Parisienne;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 40px;
+                line-height: 38px;
+                color: rgba(0, 0, 0, 0.72);}
+
+.welcome-text .sub { font-family: Pathway Gothic One;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 15px; 
+                    color: #FFFFFF;
+                    padding-left: 60px; }
+
+.order {position: absolute;
+    width: 200px;
+    height: 41px;
+    left: 160px;
+    top: 380px;
+    
+    font-family: Pathway Gothic One;
+    font-style:normal;
+    font-weight:bold;
+    font-size: 15px;
+    
+    
+    color: #000000;}
+
+.line { width: 180px; 
+        height: 10px;
+        left: 160px;
+        top: 400px;
+        background: #EF8A7F;
+        border-radius: 5px;
+        position: absolute;}
+
+
+
+
+.circle1, .circle2, .circle3, .circle4 {  
+            position:absolute;
+            width: 180px;
+            height: 180px;
+            background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 0%, #FF8574 98.0%, #FBA79C 100%);
+            border-radius: 50%; 
+            font-family: Parisienne;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 26px;
+            line-height: 49px;
+            text-align: center;
+            color: rgba(0, 0, 0, 0.72);}   
+            
+.circle1 {top:180px;
+          left:840px;}
+
+.circle2 {top:330px;
+          left:610px;}
+
+.circle3 {top:430px;
+          left:350px;}
+
+.circle4 {top:430px;
+          left:3%;}
+
+.circle span {position: relative;
+              top:20px;}
+
+.circle4 span {top:35px}
+
+.cupcake1 {position: absolute;
+    width: 218.35px;
+    height: 290.84px;
+    left: 1180px;
+    top: 200px;
+    filter: drop-shadow(10px 6px 7px rgba(0, 0, 0, 0.25));
+    transform: rotate(10.5deg);}
+
+.cupcake2 { position: absolute;
+    width: 218.35px;
+    height: 290.84px;
+    left: 1111px;
+    top: 310px;
+    filter: drop-shadow(10px 4px 6px rgba(0, 0, 0, 0.25));
+    transform: rotate(-21.5deg);}

@@ -1,0 +1,412 @@
+body{ margin:0;
+    color:rgba(0, 0, 0, 0.73);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+    max-width: 100%;
+overflow-x: hidden;}
+
+
+header{ padding:1.1em 0;
+      background-color:#FAB8AF;
+      text-align: center;
+      opacity: 0.8;
+      margin-bottom: 2.5em;
+      width:100%;}
+
+img{ max-width: 100%;
+   max-height: 100%;}
+
+/* Typography */
+
+h1 { margin:0;
+  font-family: 'Parisienne', cursive;
+  font-weight: 300;
+  color: white;
+  font-size: 3rem;}
+
+h2{ font-family: 'Parisienne', cursive;
+    font-size: 2rem;
+    font-weight: 300;
+    color:black;
+    margin: 0;
+    padding:0;}
+
+h3{ font-size: 1rem;
+ font-weight: 500;
+ margin:1em 0 0 0;
+ padding:0;}
+ 
+
+.subtitle{
+ font-size: 1rem;
+ font-weight: 500;
+ color: white;
+ margin:0;
+ text-align: end;
+}        
+
+/* Navigation Bar */
+
+nav{display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;}
+
+.nav-list { display:flex;
+          list-style: none;
+          padding:0; }
+
+.nav-list-item {margin-left:2em;}
+
+.nav-link { text-decoration: none;
+          padding:.25em 0;
+          font-size: 1.25rem;
+          font-weight: 300;
+          color:white;}
+
+.nav-link:hover{color:#D9877C;} 
+
+.hamburger { cursor: pointer;
+            background: none;
+            border: 0;
+            display: none;}       
+       
+/* Layout */
+
+.container{
+  width:95%;
+  max-width:900px;
+  margin:0 auto;
+  overflow-x: none;}
+
+.container-flex{
+  display:flex;
+  flex-direction: column;}
+
+/* Main Page */
+
+.main-page{ display:flex;
+          justify-content: space-between;
+          padding:0.5rem;
+          margin-bottom: 2rem;}
+
+.intro{
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width:60%;}
+
+.block{       width:70%;
+              background-color:#FAB8AF;
+              box-shadow: 10px 6px 7px 5px rgba(0, 0, 0, 0.29);
+              border-radius: 15px;
+              margin:0;
+              padding:2rem; }
+
+.line{height:6px;
+    width:200px;
+    border-radius: 3px;
+    background: #D9877C;}
+
+.intro-image{width:35%;
+           display: flex;
+           justify-content: space-evenly;} 
+
+.intro-image img{max-width: 100%; height: 150px;  }
+
+
+/* Second Page */
+
+.second-page{
+  display: flex;
+  justify-content: space-between;
+  width:100%;
+  margin-bottom: 3em;}
+
+
+
+.circle { width:150px;
+        height: 150px;
+        background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 0%, #FF8574 98.96%, #FBA79C 100%);
+        border-radius: 50%;
+        text-align: center;}
+
+.circle h1 {font-size: 1.5rem;
+          font-weight: 300;
+          color:rgba(0, 0, 0, 0.73);
+          padding:0;
+          margin-top: 2.5rem;}
+
+/* Third Page */
+
+.section1{
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;}
+
+.chocolate-cake{display: flex;
+              width:60%;
+              flex-direction: column;
+              align-items: center;
+              padding: 0;}
+
+
+.chocolate-cake .line{height:6px;
+                    width:200px; }
+
+.chocolate-cake-block{display: flex;
+                    flex-direction: column;
+                    align-items: center;}
+
+.chocolate-cake-image {
+  width:150px;
+  height: 150px;
+  padding: 0;
+  margin-top: 1em;
+  z-index: 1;  }
+
+
+.chocolate-cake-block .block {padding: 1rem; 
+                            width:60%; }
+
+.chocolate-cake-text{font-size: 1.2rem;
+                   font-family: 'Pathway Gothic One', sans-serif;
+                   font-weight: 500;}
+
+.backed-fresh{width:35%;
+            padding: .5em;
+            text-align: center;
+            font-size: 1.1rem;
+            color:rgba(0, 0, 0, 0.60);}
+
+.backed-fresh h2{margin-bottom: .5em;
+               font-size: 2rem;
+               color: black;}   
+
+.section2{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 1em;}
+
+
+.section2 .line{height:6px;
+              width:390px; 
+              margin-bottom: 1.3em;}
+
+.cake-section{  display: flex;
+              justify-content: space-between;
+              width:100%;
+              margin-bottom: 2em;}               
+
+.cake-section .circle{   padding:.75rem;
+                      width:150px;
+                      height: 150px;
+                      object-fit: cover;}
+
+.cake-section img{      width:140px;
+                      height: 140px;}
+
+
+/* Final Page */
+
+.final-page{width:100%; 
+            display: flex;
+            flex-direction: column;
+            align-items: center;}
+
+.top-sellers {  font-size: 1.5rem;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    padding:1.5em;
+    margin-bottom: 3em;
+    width:30%;}
+
+.cake-collection{display: flex;
+                 justify-content: space-between;
+                 width:100%;
+                 margin-bottom: 2em;}
+
+.cake{height: 300px;
+      background: radial-gradient(50% 50% at 50% 50%, #F1F3FA 0%, #FF8776 100%);
+      border-radius: 10px;
+      width:18%;
+      padding:.7em;
+      display: flex;
+      flex-direction: column;}
+
+.cake h3 { font-size: 2rem;
+           padding: 0;
+           margin:0;
+           font-weight: 500;}
+
+.mini-cake { font-family: 'Pathway Gothic One', sans-serif;
+             font-weight: 500;
+             font-size: 1.4rem;
+             color:rgba(0, 0, 0, 0.60);}
+
+.choice{width:90%;
+        height:150px;
+        padding:0.5em;}
+
+.choice img{max-width: 100%;
+            max-height: 100%;}
+
+.price { margin-top: 1em;
+         margin-left: 2.2em;
+         font-size: 2rem;
+         font-weight: bold;}
+
+.mini{font-size: 1.5rem;}
+
+.social-icons{ display: flex; 
+               justify-content: space-between;
+               width:20%;}
+
+.iconify:hover{cursor: pointer;} 
+
+
+
+footer{ margin-top: 2em;
+        background-color:#D9877C ;
+        color: white;
+        font-size: 1rem;
+        font-weight: 300;
+        padding:2em 0;
+        text-align:center;}
+
+
+
+
+@media (max-width:740px){
+
+  header{width: 100%;
+         margin-bottom: 1.5em;}
+
+   h2{font-size: 1.55rem;}      
+
+  .site-title h1 { font-size: 3rem;}
+
+  
+
+  .nav-list { display:none;
+              flex-direction: column;
+              width:100%;}
+
+  .nav-list{ margin-bottom:2rem; }
+
+  .hamburger{display: block;}
+
+  .nav-list.show {
+      display: flex;}
+  
+  /* Main Page */  
+      
+  .main-page{flex-direction: column;
+             align-items: center;}
+
+  .block { padding:.75em;}         
+              
+  .intro{ width:100%;}
+
+  .intro-image{margin-top:.5em;}
+
+  .subtitle{text-align: center;
+            font-size: .725rem;}
+
+  .order-now h3 {font-size: .75rem;}
+
+  .intro .line { width:150px;
+                height: 5px;}
+
+  /* Second Page */  
+
+  .second-page{ flex-wrap: wrap;
+                justify-content: space-evenly;
+                margin-bottom: 2em;}
+
+  .circle{margin-bottom: 1rem;
+      width:100px;
+      height: 100px;}
+  
+  .circle h1{font-size: 1rem;
+             margin-top: 1.68rem;}
+
+  /* Third Page */
+
+  .section1 {flex-direction: column;
+             align-items: center; }
+
+  .chocolate-cake {width:100%;
+                   margin-bottom: 1em;}       
+                   
+  .chocolate-cake-text {font-size: .725rem;}
+
+  .chocolate-cake .line { margin: 0;
+                          width:200px; }
+  
+  .chocolate-cake h2 { margin:0;
+                       padding: 0;}
+
+  .second-page{margin-bottom: .5em;}
+
+  .backed-fresh{width:60%;  font-size: .725rem;}
+
+  .section2 {flex-direction: column;
+             align-items: center; 
+             text-align: center;}
+
+  .cake-section{ flex-wrap: wrap;
+                max-width: 100%;
+                justify-content: space-evenly;
+                margin-bottom: .5em;}
+      
+  .cake-section .circle { width:100px; height: 100px;}
+
+   .section2 .line { width:300px; }
+
+   .backed-fresh h2 { font-size: 1.55rem; }
+
+   /* Final Page */
+
+   .final-page{width:100%; max-width:100%; } 
+
+   .cake-collection{align-items: center;
+                    width: 90%;
+                    flex-wrap: wrap; 
+                    margin-bottom: .1em;
+                   }
+ 
+    .top-sellers{width:60%;
+                 font-size: 1.2rem;}
+
+    .cake{height: 200px; 
+      width:30%;
+      padding:.7em;
+      display: flex;
+      margin-bottom: 1em;
+      flex-direction: column;}
+
+    .cake h3{font-size: 1.5rem;}
+
+    .choice {width:80px;
+              height: 80px;}
+
+    .price{font-size: 1.3rem;}
+
+    .mini{ font-size: 1rem;}
+
+    .social-icons{ width:30%;}
+
+    footer{ margin-top: 1em; }
+
+
+
+
+  
+      
+
+}
