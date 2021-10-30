@@ -1,2 +1,2 @@
 # Cake-store Project here
-https://github.com/lynnaouad/Cake-store
+ https://lynnaouad.github.io/Cake-store/
