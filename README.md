@@ -1,4 +1,2 @@
-# Cake-store
-The main focus here is the design ( CSS ) !
-I use figma.
+# Cake-store Project here
 https://github.com/lynnaouad/Cake-store
